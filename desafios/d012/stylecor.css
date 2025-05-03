@@ -1,0 +1,86 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Text:ital@0;1&family=Passion+One:wght@400;700;900&family=Silkscreen:wght@400;700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Text:ital@0;1&family=Passion+One:wght@400;700;900&family=Silkscreen:wght@400;700&family=Sriracha&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    font-family: "Passion One", sans-serif;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin:-20px;
+
+}
+
+header > h1 {
+    font-size: 5.5em;
+    margin: 0;
+}
+
+main {
+    font-family: "Sriracha", sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px;
+    
+}
+
+div {
+    text-align: left;
+    padding-left: 20px  ;
+    width: 200px;
+    margin: 15px;
+}
+
+div#branco {
+    background-color: rgba(0, 0, 0, 0.24);
+}
+
+div#joaninha {
+
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-width: 98vh;
+    padding: 5px;
+    color: white;
+    background-position: fixed;
+    display: block;
+    background-attachment: fixed;
+    box-shadow: 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+}
+
+div#folhas {
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    background-position:right center;
+    width: 100%;
+    padding: 5px;
+    color: white;
+    background-position: fixed;
+    display: block;
+    background-attachment: fixed;
+    box-shadow: 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    
+}
+footer {
+    font-family: "Passion One", sans-serif;
+    color: white;
+    background-color: black;
+    padding:12px;
+    text-align: center;
+    margin:-20px;    
+}
+
